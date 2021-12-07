@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class lab1 {
     public static void main(String args[]) {
-        String pattern = "(0[1-9]|[12]\\d|3[01])/(0[1-9]|1[012])/(19|[2-9][0-9])\\d\\d";
+        String pattern = "(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/(19|[2-9][0-9])[0-9][0-9]";
         Pattern p = Pattern.compile(pattern);
         Scanner data = new Scanner(System.in);
         System.out.println("Введите дату");
